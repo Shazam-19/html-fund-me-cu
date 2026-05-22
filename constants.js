@@ -126,3 +126,7 @@ export const abi = [
     type: "function"
   }
 ]
+
+// `cast sig "fund()"` computes the function selector for `fund()`.
+// We can compare this selector with the calldata shown in MetaMask
+// to verify that the transaction is calling the intended function.
